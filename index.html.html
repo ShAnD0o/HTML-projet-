@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Register</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="master.js"></script>
+    </head>
+<body style="background-image:url(images/imag.jpg); height:880px; ">
+    
+    <nav class="menu">
+     <ul>
+      <li><a href="Home.html">Home</a></li>    
+      <li><a href="gallery.html">Gallery</a></li> 
+      <!--<li><a href="#">Event</a></li>
+      <li><a href="#">Feedback</a></li>-->
+      <li><a href="about.html">About</a></li>
+      <li><a href="top players.html">Top Players</a></li>
+      <li><a href="form.html">Register</a></li>
+     </ul>
+    
+ <div class="logo">
+  <pre>S H A N D O</pre>
+ </div>
+        
+    </nav>
+    
+    <div class="box">
+        
+        <h2><pre>S i g n  U p</pre></h2>
+        <div id="wrror"></div>
+        <form onsubmit="return valid(this);" action="Home.html">
+     
+            <div class="inputBox">
+             <input type="text" name="first-name" id="first-name" required="" placeholder="First Name">
+    
+            </div>
+    
+            <div class="inputBox">
+             <input type="text" name="last-name" required="" id="last-name" placeholder="Last Name">
+      
+            </div>
+     
+            <div class="inputBox" >
+                <input type="password" name="password" id="password" required="" placeholder="password" title="password must consists of only 8 characters & capital & small case & digits & one special character only">
+            </div>
+        
+            <div class="inputBox">
+             <input type="email" name="" required="" placeholder="E-mail">
+     
+            </div>
+          
+              <div class="inputBox">
+             <input type="text" name="" required="" placeholder="Phone Number" pattern="[0-9]{3}[0-9]{4}[0-9]{4}" title="11 numbers only">
+        
+            </div>
+              <div class="inputBox">
+             <textarea class="abdo" warp="hard" cols="45" rows="5" placeholder="Address" required="">
+              
+             </textarea>
+             
+            </div>
+              <br>
+              <div class="inputBox">
+        <select class="abdo" required="">
+         <option style="border-radius:10px">Male</option>
+         <option style="border-radius:10px">Female</option>
+        </select>
+        <br><br>
+            </div>
+    <div class="inputBox">
+            <input type="submit" name="" value="Submit">
+        </form>
+    </div>
+
+    
+
+</body>    
+</html>
