@@ -41,19 +41,19 @@ function image_show()
 var myImg;
 if(start==1)
 {
-myImg='images/1.jpg'
+myImg='1.jpg'
 }
 else if (start==2)
 {
-myImg='images/2.jpg'
+myImg='2.jpg'
 }
 else if (start==3)
 {
-myImg='images/3.jpg'
+myImg='3.jpg'
 }
 else if (start==4)
 {
-myImg='images/4.jpg'
+myImg='4.jpg'
 }
 /*else if (start==5)
 {
